@@ -24,8 +24,8 @@ section {
 	position: relative;
 	border: 1px solid black;
 	background: #bbbbbb;
-	padding-top: 30px;
-	margin: 10px;
+	padding: 30px 10px 10px 10px;
+	margin: 0 5px 10px 5px;
 }
 #chicken {
 	background-color: #D59898;
@@ -39,7 +39,10 @@ section {
 
 /* Simple Responsive Framework. */
 .row {
-  width: 100%;
+	width: 100%;
+}
+.extern-margin {
+	margin: 0 5px 0 5px;
 }
 
 /********** Large devices only **********/
